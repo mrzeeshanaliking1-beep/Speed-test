@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Internet Speed Checker</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Internet Speed Checker</h1>
+            <button id="dark-mode-toggle">Toggle Dark Mode</button>
+        </header>
+        <main>
+            <section id="speed-test">
+                <h2>Speed Test</h2>
+                <div id="download-speed">
+                    <h3>Download Speed: <span id="download-result">0 Mbps</span></h3>
+                    <button id="start-download">Start Download Test</button>
+                </div>
+                <div id="upload-speed">
+                    <h3>Upload Speed: <span id="upload-result">0 Mbps</span></h3>
+                    <button id="start-upload">Start Upload Test</button>
+                </div>
+                <div id="ping-test">
+                    <h3>Ping: <span id="ping-result">0 ms</span></h3>
+                    <button id="start-ping">Start Ping Test</button>
+                </div>
+            </section>
+            <section id="speed-history">
+                <h2>Speed History</h2>
+                <ul id="history-list"></ul>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
