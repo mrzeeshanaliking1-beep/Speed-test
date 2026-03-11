@@ -1,0 +1,28 @@
+.speed-checker {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.speed-checker h1 {
+    color: #333;
+}
+
+.speed-checker .result {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.speed-checker button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.speed-checker button:hover {
+    background-color: #218838;
+}
